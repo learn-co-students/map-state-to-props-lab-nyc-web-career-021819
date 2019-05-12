@@ -20,6 +20,7 @@ class UserInput extends Component {
   }
 
   render() {
+    console.log(this.props)
     return(
       <form onSubmit={this.handleOnSubmit}>
         <p>
